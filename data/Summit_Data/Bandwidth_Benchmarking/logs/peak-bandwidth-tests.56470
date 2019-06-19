@@ -1,0 +1,62 @@
+/gpfs/alpine/gen008/scratch/hazem
+/gpfs/alpine/gen008/scratch/hazem/output
+==24287== NVPROF is profiling process 24287, command: /gpfs/alpine/gen008/scratch/hazem/bin/bandwidthTest --mode=custom --start=1 --end=28 --dtoh --memory=pinned
+==24287== Generated result file: /gpfs/alpine/gen008/scratch/hazem/output/profiler-bandwidth-output-dtoh-pinned.sqlite
+[CUDA Bandwidth Test] - Starting...
+Running on...
+
+ Device 0: Tesla V100-SXM2-16GB
+ Custom Mode
+
+ Device to Host Bandwidth, 1 Device(s)
+ PINNED Memory Transfers
+   Transfer Size (Bytes)	Bandwidth(MB/s)
+   1				0.1
+   2				0.3
+   4				0.5
+   8				1.1
+   16				2.1
+   32				4.2
+   64				8.5
+   128				16.8
+   256				33.8
+   512				65.7
+   1024				136.2
+   2048				271.1
+   4096				537.8
+   8192				1088.9
+   16384			2167.9
+   32768			4287.1
+   65536			8632.6
+   131072			16847.1
+   262144			23303.2
+   524288			28368.8
+   1048576			31107.8
+   2097152			33486.5
+   4194304			40336.8
+   8388608			44412.5
+   16777216			45174.2
+   33554432			45556.7
+   67108864			45769.2
+   134217728			45864.8
+   268435456			45903.3
+
+Result = PASS
+
+NOTE: The CUDA Samples are not meant for performance measurements. Results may vary when GPU Boost is enabled.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@login1>
+Subject: Job 56470: <peak-bandwidth-tests> in cluster <peak> Done
+
+Job <peak-bandwidth-tests> was submitted from host <login1> by user <hazem> in cluster <peak> at Sun Dec  9 03:31:20 2018
+Job was executed on host(s) <1*login1>, in queue <batch>, as user <hazem> in cluster <peak> at Sun Dec  9 03:31:21 2018
+                            <42*h41n09>
+</ccs/home/hazem> was used as the home directory.
+</ccs/home/hazem/microbenchmarks-logs/peak/logs> was used as the working directory.
+Started at Sun Dec  9 03:31:21 2018
+Terminated at Sun Dec  9 03:31:32 2018
+Results reported at Sun Dec  9 03:31:32 2018
+
+The output (if any) is above this job summary.
+
